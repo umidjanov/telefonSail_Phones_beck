@@ -8,7 +8,7 @@ const count = require("./routes/count")
 const cors = require("cors");
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "*",
     methods: ["POST", "GET", "PUT", "DELETE"],
   })
 );
